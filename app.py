@@ -315,3 +315,12 @@ with col2:
     st.write("Jumlah per Kategori:")
     st.dataframe(df['Kategori'].value_counts())
 
+import os
+
+def encode_image(image_path):
+    if os.path.exists(image_path):
+        with open(image_path, "rb") as image_file:
+            return base64.b64encode(image_file.read()).decode("utf-8")
+    else:
+        print(f"File not found: {image_path}")
+        return None
