@@ -139,7 +139,90 @@
 #     st.write("Jumlah per Kategori:")
 #     st.dataframe(df['Kategori'].value_counts())
 
-##TODO : PERCOBAAN DENGAN GAMBAR
+##TODO : adasih gambarnya, tapi icon gambar rusak xxixixiix
+# import streamlit as st
+# import folium
+# from streamlit_folium import folium_static
+# import pandas as pd
+# import json
+# from folium.plugins import MarkerCluster
+
+# # Set page config
+# st.set_page_config(page_title="Web GIS", layout="wide")
+
+# # Load data dari JSON
+# def load_data():
+#     with open('dataset.json', 'r') as file:
+#         return pd.DataFrame(json.load(file))
+
+# # Load data
+# df = load_data()
+
+# # Title
+# st.title("Sistem Informasi Geografis")
+
+# # Sidebar untuk filter
+# st.sidebar.title("Filter")
+# # Filter berdasarkan kategori
+# all_categories = ['Semua'] + list(df['Kategori'].unique())
+# selected_category = st.sidebar.selectbox('Pilih Kategori:', all_categories)
+
+# # Filter data
+# if selected_category != 'Semua':
+#     filtered_df = df[df['Kategori'] == selected_category]
+# else:
+#     filtered_df = df
+
+# # Buat peta
+# m = folium.Map(
+#     location=[df['Latitude'].mean(), df['Longitude'].mean()],
+#     zoom_start=12
+# )
+
+# # Tambah marker cluster
+# marker_cluster = MarkerCluster().add_to(m)
+
+# # Tambah markers
+# for idx, row in filtered_df.iterrows():
+#     # Popup HTML dengan informasi dan gambar
+#     popup_html = f"""
+#         <b>{row['Nama']}</b><br>
+#         Kategori: {row['Kategori']}<br>
+#         Alamat: {row['Alamat']}<br>
+#         Deskripsi: {row['Deskripsi']}<br>
+#         <img src="{row['Gambar']}" alt="{row['Nama']}" width="200">
+#     """
+    
+#     # Tambah marker
+#     folium.Marker(
+#         [row['Latitude'], row['Longitude']],
+#         popup=folium.Popup(popup_html, max_width=300),
+#         tooltip=row['Nama']
+#     ).add_to(marker_cluster)
+
+# # Layout
+# col1, col2 = st.columns([2, 1])
+
+# with col1:
+#     # Tampilkan peta
+#     folium_static(m, width=800)
+
+# with col2:
+#     # Fitur pencarian
+#     st.subheader("Cari Lokasi")
+#     search_term = st.text_input("Masukkan nama lokasi:")
+#     if search_term:
+#         search_results = df[df['Nama'].str.contains(search_term, case=False)]
+#         st.dataframe(search_results)
+
+#     # Tampilkan statistik
+#     st.subheader("Statistik")
+#     st.write(f"Total lokasi: {len(filtered_df)}")
+#     st.write("Jumlah per Kategori:")
+#     st.dataframe(df['Kategori'].value_counts())
+
+##? kenapa ya ga muncul gambarnya
+
 import streamlit as st
 import folium
 from streamlit_folium import folium_static
@@ -184,13 +267,16 @@ marker_cluster = MarkerCluster().add_to(m)
 
 # Tambah markers
 for idx, row in filtered_df.iterrows():
-    # Popup HTML dengan informasi dan gambar
+    # Periksa path gambar
+    gambar_path = row['Gambar']
+    
+    # Popup HTML dengan gambar di atas informasi
     popup_html = f"""
+        <img src="{gambar_path}" alt="{row['Nama']}" width="300"><br>
         <b>{row['Nama']}</b><br>
         Kategori: {row['Kategori']}<br>
         Alamat: {row['Alamat']}<br>
-        Deskripsi: {row['Deskripsi']}<br>
-        <img src="{row['Gambar']}" alt="{row['Nama']}" width="200">
+        Deskripsi: {row['Deskripsi']}
     """
     
     # Tambah marker
