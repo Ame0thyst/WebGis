@@ -228,9 +228,8 @@ import folium
 from streamlit_folium import folium_static
 import pandas as pd
 from folium.plugins import MarkerCluster
-import base64
-import os
 import warnings
+import os
 
 # Suppress deprecation warnings
 warnings.filterwarnings('ignore', category=DeprecationWarning)
@@ -242,26 +241,6 @@ st.set_page_config(page_title="Web GIS", layout="wide")
 @st.cache_data
 def load_data():
     return pd.read_json('dataset.json')
-
-# Menggunakan st.cache_data untuk mempercepat encoding gambar
-@st.cache_data
-def encode_image(image_path):
-    try:
-        # Hapus leading slash jika ada
-        image_path = image_path.lstrip('/')
-        
-        # Dapatkan direktori dari script yang sedang berjalan
-        current_dir = os.path.dirname(os.path.abspath(__file__))
-        
-        # Gabungkan path
-        full_path = os.path.join(current_dir, image_path)
-        
-        # Baca dan encode gambar
-        with open(full_path, "rb") as image_file:
-            return base64.b64encode(image_file.read()).decode("utf-8")
-    except Exception as e:
-        st.error(f"Error loading image: {str(e)} \nPath: {full_path}")
-        return None
 
 # Load data
 df = load_data()
@@ -294,38 +273,35 @@ marker_cluster = MarkerCluster().add_to(m)
 
 # Tambah markers
 for idx, row in filtered_df.iterrows():
-    # Encode gambar ke Base64
-    image_base64 = encode_image(row['Gambar'])
-    
-    if image_base64:
-        # Popup HTML dengan gambar Base64
-        popup_html = f"""
-        <div style="width:100%; max-width:300px;">
-            <h4 style="margin-bottom:10px;">{row['Nama']}</h4>
-            <img src="data:image/jpeg;base64,{image_base64}" style="width:100%; max-width:280px; height:auto; margin-bottom:10px;">
-            <p><strong>Kategori:</strong> {row['Kategori']}</p>
-            <p><strong>Alamat:</strong> {row['Alamat']}</p>
-            <p><strong>Deskripsi:</strong> {row['Deskripsi']}</p>
+    # Popup HTML dengan path gambar langsung
+    popup_html = f"""
+    <div style="width:100%; max-width:300px; padding: 10px;">
+        <h4 style="margin-bottom:10px; color: #333;">{row['Nama']}</h4>
+        <img src="{row['Gambar']}" style="width:100%; max-width:280px; height:auto; margin-bottom:10px; border-radius: 5px;">
+        <div style="margin-top: 10px;">
+            <p style="margin: 5px 0;"><strong>Kategori:</strong> {row['Kategori']}</p>
+            <p style="margin: 5px 0;"><strong>Alamat:</strong> {row['Alamat']}</p>
+            <p style="margin: 5px 0;"><strong>Deskripsi:</strong> {row['Deskripsi']}</p>
         </div>
-        """
-    else:
-        # Popup HTML tanpa gambar jika terjadi error
-        popup_html = f"""
-        <div style="width:100%; max-width:300px;">
-            <h4 style="margin-bottom:10px;">{row['Nama']}</h4>
-            <p><strong>Kategori:</strong> {row['Kategori']}</p>
-            <p><strong>Alamat:</strong> {row['Alamat']}</p>
-            <p><strong>Deskripsi:</strong> {row['Deskripsi']}</p>
-        </div>
-        """
+    </div>
+    """
     
     # Tambah marker dengan IFrame untuk better formatting
-    popup = folium.Popup(folium.IFrame(html=popup_html, width=320, height=400))
+    popup = folium.Popup(
+        folium.IFrame(
+            html=popup_html,
+            width=320,
+            height=400
+        ),
+        max_width=320
+    )
     
+    # Tambahkan marker ke peta
     folium.Marker(
-        [row['Latitude'], row['Longitude']],
+        location=[row['Latitude'], row['Longitude']],
         popup=popup,
-        tooltip=row['Nama']
+        tooltip=row['Nama'],
+        icon=folium.Icon(color='red', icon='info-sign')
     ).add_to(marker_cluster)
 
 # Layout
