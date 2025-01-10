@@ -229,6 +229,7 @@ from streamlit_folium import folium_static
 import pandas as pd
 import json
 from folium.plugins import MarkerCluster
+from PIL import Image
 
 # Set page config
 st.set_page_config(page_title="Web GIS", layout="wide")
@@ -267,12 +268,17 @@ marker_cluster = MarkerCluster().add_to(m)
 
 # Tambah markers
 for idx, row in filtered_df.iterrows():
-    # Periksa path gambar
+    # Path ke gambar
     gambar_path = row['Gambar']
-    
-    # Popup HTML dengan gambar di atas informasi
+    try:
+        # Cek jika gambar ada
+        image = Image.open(gambar_path)
+        st.image(image, caption=row['Nama'], width=300)
+    except FileNotFoundError:
+        st.error(f"Gambar tidak ditemukan: {gambar_path}")
+
+    # Popup HTML dengan informasi detail
     popup_html = f"""
-        <img src="{gambar_path}" alt="{row['Nama']}" width="300"><br>
         <b>{row['Nama']}</b><br>
         Kategori: {row['Kategori']}<br>
         Alamat: {row['Alamat']}<br>
