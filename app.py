@@ -225,20 +225,26 @@
 
 import streamlit as st
 import folium
-from streamlit_folium import st_folium  # Perubahan di sini
+from streamlit_folium import folium_static
 import pandas as pd
 from folium.plugins import MarkerCluster
 import base64
 import os
+import warnings
+
+# Suppress deprecation warnings
+warnings.filterwarnings('ignore', category=DeprecationWarning)
 
 # Set page config
 st.set_page_config(page_title="Web GIS", layout="wide")
 
-# Load data langsung dari file local
+# Menggunakan st.cache_data untuk mempercepat loading data
+@st.cache_data
 def load_data():
     return pd.read_json('dataset.json')
 
-# Fungsi untuk encode gambar ke Base64
+# Menggunakan st.cache_data untuk mempercepat encoding gambar
+@st.cache_data
 def encode_image(image_path):
     try:
         # Hapus leading slash jika ada
@@ -279,7 +285,8 @@ else:
 # Buat peta
 m = folium.Map(
     location=[df['Latitude'].mean(), df['Longitude'].mean()],
-    zoom_start=12
+    zoom_start=12,
+    control_scale=True
 )
 
 # Tambah marker cluster
@@ -294,7 +301,7 @@ for idx, row in filtered_df.iterrows():
         # Popup HTML dengan gambar Base64
         popup_html = f"""
         <div style="width:100%; max-width:300px;">
-            <h4>{row['Nama']}</h4>
+            <h4 style="margin-bottom:10px;">{row['Nama']}</h4>
             <img src="data:image/jpeg;base64,{image_base64}" style="width:100%; max-width:280px; height:auto; margin-bottom:10px;">
             <p><strong>Kategori:</strong> {row['Kategori']}</p>
             <p><strong>Alamat:</strong> {row['Alamat']}</p>
@@ -305,7 +312,7 @@ for idx, row in filtered_df.iterrows():
         # Popup HTML tanpa gambar jika terjadi error
         popup_html = f"""
         <div style="width:100%; max-width:300px;">
-            <h4>{row['Nama']}</h4>
+            <h4 style="margin-bottom:10px;">{row['Nama']}</h4>
             <p><strong>Kategori:</strong> {row['Kategori']}</p>
             <p><strong>Alamat:</strong> {row['Alamat']}</p>
             <p><strong>Deskripsi:</strong> {row['Deskripsi']}</p>
@@ -325,8 +332,8 @@ for idx, row in filtered_df.iterrows():
 col1, col2 = st.columns([2, 1])
 
 with col1:
-    # Tampilkan peta menggunakan st_folium alih-alih folium_static
-    st_folium(m, width=800, height=500)  # Tambahkan parameter height
+    # Tampilkan peta dengan folium_static
+    folium_static(m, width=800, height=500)
 
 with col2:
     # Fitur pencarian
