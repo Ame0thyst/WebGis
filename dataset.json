@@ -6,7 +6,7 @@
     "Kategori": "Mall",
     "Alamat": "Jl. Malioboro No.52-58",
     "Deskripsi": "Pusat perbelanjaan di jantung Yogyakarta",
-    "Gambar": "/assets/img/nt.JPG"
+    "Gambar": "assets/img/city.png"
   },
   {
     "Nama": "Tugu Yogyakarta",
@@ -15,6 +15,6 @@
     "Kategori": "Landmark",
     "Alamat": "Jl. Jend. Sudirman",
     "Deskripsi": "Landmark ikonik kota Yogyakarta",
-    "Gambar": "/assets/img/nt.JPG"
+    "Gambar": "/assets/img/city.png"
   }
 ]
