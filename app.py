@@ -225,7 +225,7 @@
 
 import streamlit as st
 import folium
-from streamlit_folium import folium_static
+from streamlit_folium import st_folium  # Perubahan di sini
 import pandas as pd
 from folium.plugins import MarkerCluster
 import base64
@@ -325,8 +325,8 @@ for idx, row in filtered_df.iterrows():
 col1, col2 = st.columns([2, 1])
 
 with col1:
-    # Tampilkan peta
-    folium_static(m, width=800)
+    # Tampilkan peta menggunakan st_folium alih-alih folium_static
+    st_folium(m, width=800, height=500)  # Tambahkan parameter height
 
 with col2:
     # Fitur pencarian
