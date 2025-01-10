@@ -241,10 +241,20 @@ def load_data():
 # Fungsi untuk encode gambar ke Base64
 def encode_image(image_path):
     try:
-        with open(image_path, "rb") as image_file:
+        # Hapus leading slash jika ada
+        image_path = image_path.lstrip('/')
+        
+        # Dapatkan direktori dari script yang sedang berjalan
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        
+        # Gabungkan path
+        full_path = os.path.join(current_dir, image_path)
+        
+        # Baca dan encode gambar
+        with open(full_path, "rb") as image_file:
             return base64.b64encode(image_file.read()).decode("utf-8")
     except Exception as e:
-        st.error(f"Error loading image: {str(e)}")
+        st.error(f"Error loading image: {str(e)} \nPath: {full_path}")
         return None
 
 # Load data
@@ -280,16 +290,27 @@ for idx, row in filtered_df.iterrows():
     # Encode gambar ke Base64
     image_base64 = encode_image(row['Gambar'])
     
-    # Popup HTML dengan gambar Base64
-    popup_html = f"""
-    <div style="width:100%; max-width:300px;">
-        <h4>{row['Nama']}</h4>
-        <img src="data:image/jpeg;base64,{image_base64}" style="width:100%; max-width:280px; height:auto; margin-bottom:10px;">
-        <p><strong>Kategori:</strong> {row['Kategori']}</p>
-        <p><strong>Alamat:</strong> {row['Alamat']}</p>
-        <p><strong>Deskripsi:</strong> {row['Deskripsi']}</p>
-    </div>
-    """
+    if image_base64:
+        # Popup HTML dengan gambar Base64
+        popup_html = f"""
+        <div style="width:100%; max-width:300px;">
+            <h4>{row['Nama']}</h4>
+            <img src="data:image/jpeg;base64,{image_base64}" style="width:100%; max-width:280px; height:auto; margin-bottom:10px;">
+            <p><strong>Kategori:</strong> {row['Kategori']}</p>
+            <p><strong>Alamat:</strong> {row['Alamat']}</p>
+            <p><strong>Deskripsi:</strong> {row['Deskripsi']}</p>
+        </div>
+        """
+    else:
+        # Popup HTML tanpa gambar jika terjadi error
+        popup_html = f"""
+        <div style="width:100%; max-width:300px;">
+            <h4>{row['Nama']}</h4>
+            <p><strong>Kategori:</strong> {row['Kategori']}</p>
+            <p><strong>Alamat:</strong> {row['Alamat']}</p>
+            <p><strong>Deskripsi:</strong> {row['Deskripsi']}</p>
+        </div>
+        """
     
     # Tambah marker dengan IFrame untuk better formatting
     popup = folium.Popup(folium.IFrame(html=popup_html, width=320, height=400))
