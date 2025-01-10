@@ -1,0 +1,20 @@
+[
+  {
+    "Nama": "Malioboro Mall",
+    "Latitude": -7.792364,
+    "Longitude": 110.365897,
+    "Kategori": "Mall",
+    "Alamat": "Jl. Malioboro No.52-58",
+    "Deskripsi": "Pusat perbelanjaan di jantung Yogyakarta",
+    "Gambar": "assets/img/nt.jpg"
+  },
+  {
+    "Nama": "Tugu Yogyakarta",
+    "Latitude": -7.783401,
+    "Longitude": 110.367077,
+    "Kategori": "Landmark",
+    "Alamat": "Jl. Jend. Sudirman",
+    "Deskripsi": "Landmark ikonik kota Yogyakarta",
+    "Gambar": "images/nt.jpg"
+  }
+]

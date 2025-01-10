@@ -1,4 +1,9 @@
+# pandas==2.2.2
+# streamlit
+# folium
+# streamlit-folium
+
 pandas==2.2.2
-streamlit
-folium
-streamlit-folium
+streamlit==1.26.0
+folium==0.14.0
+streamlit-folium==0.11.2
