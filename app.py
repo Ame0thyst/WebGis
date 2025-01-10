@@ -267,22 +267,18 @@ m = folium.Map(
 marker_cluster = MarkerCluster().add_to(m)
 
 # Tambah markers
+# Tambah marker dengan gambar di dalam popup
+# Tambah marker dengan gambar di dalam popup
 for idx, row in filtered_df.iterrows():
-    # Path ke gambar
-    gambar_path = row['Gambar']
-    try:
-        # Cek jika gambar ada
-        image = Image.open(gambar_path)
-        st.image(image, caption=row['Nama'], width=300)
-    except FileNotFoundError:
-        st.error(f"Gambar tidak ditemukan: {gambar_path}")
-
-    # Popup HTML dengan informasi detail
+    # Popup HTML dengan informasi detail dan gambar
     popup_html = f"""
-        <b>{row['Nama']}</b><br>
-        Kategori: {row['Kategori']}<br>
-        Alamat: {row['Alamat']}<br>
-        Deskripsi: {row['Deskripsi']}
+        <div style="width: 300px;">
+            <img src="{row['Gambar']}" alt="Gambar Tidak Tersedia" style="width: 100%; height: auto; border-radius: 5px;">
+            <b>{row['Nama']}</b><br>
+            Kategori: {row['Kategori']}<br>
+            Alamat: {row['Alamat']}<br>
+            Deskripsi: {row['Deskripsi']}
+        </div>
     """
     
     # Tambah marker
@@ -291,6 +287,7 @@ for idx, row in filtered_df.iterrows():
         popup=folium.Popup(popup_html, max_width=300),
         tooltip=row['Nama']
     ).add_to(marker_cluster)
+
 
 # Layout
 col1, col2 = st.columns([2, 1])
