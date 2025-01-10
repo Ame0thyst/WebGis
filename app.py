@@ -227,17 +227,22 @@ import streamlit as st
 import folium
 from streamlit_folium import folium_static
 import pandas as pd
-import json
 from folium.plugins import MarkerCluster
-from PIL import Image
+import base64
+import os
 
 # Set page config
 st.set_page_config(page_title="Web GIS", layout="wide")
 
-# Load data dari JSON
+# Load data langsung dari file local
 def load_data():
-    with open('dataset.json', 'r') as file:
-        return pd.DataFrame(json.load(file))
+    # Ganti 'dataset.json' dengan nama file JSON Anda
+    return pd.read_json('dataset.json')
+
+# Fungsi untuk encode gambar ke Base64
+def encode_image(image_path):
+    with open(image_path, "rb") as image_file:
+        return base64.b64encode(image_file.read()).decode("utf-8")
 
 # Load data
 df = load_data()
@@ -267,13 +272,14 @@ m = folium.Map(
 marker_cluster = MarkerCluster().add_to(m)
 
 # Tambah markers
-# Tambah marker dengan gambar di dalam popup
-# Tambah marker dengan gambar di dalam popup
 for idx, row in filtered_df.iterrows():
-    # Popup HTML dengan informasi detail dan gambar
+    # Encode gambar ke Base64
+    image_base64 = encode_image(row['Gambar'])
+    
+    # Popup HTML dengan gambar Base64
     popup_html = f"""
         <div style="width: 300px;">
-            <img src="{row['Gambar']}" alt="Gambar Tidak Tersedia" style="width: 100%; height: auto; border-radius: 5px;">
+            <img src="data:image/jpeg;base64,{image_base64}" alt="Gambar Tidak Tersedia" style="width: 100%; height: auto; border-radius: 5px;">
             <b>{row['Nama']}</b><br>
             Kategori: {row['Kategori']}<br>
             Alamat: {row['Alamat']}<br>
@@ -287,7 +293,6 @@ for idx, row in filtered_df.iterrows():
         popup=folium.Popup(popup_html, max_width=300),
         tooltip=row['Nama']
     ).add_to(marker_cluster)
-
 
 # Layout
 col1, col2 = st.columns([2, 1])
@@ -309,3 +314,4 @@ with col2:
     st.write(f"Total lokasi: {len(filtered_df)}")
     st.write("Jumlah per Kategori:")
     st.dataframe(df['Kategori'].value_counts())
+
