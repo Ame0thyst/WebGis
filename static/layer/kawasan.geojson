@@ -1,0 +1,24 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [110.365897, -7.792364],
+              [110.375897, -7.792364],
+              [110.375897, -7.782364],
+              [110.365897, -7.782364],
+              [110.365897, -7.792364]
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Kawasan"
+        }
+      }
+    ]
+  }
+  

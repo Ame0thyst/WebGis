@@ -1,0 +1,19 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [110.365897, -7.792364],
+            [110.375897, -7.782364]
+          ]
+        },
+        "properties": {
+          "name": "Jalan Raya"
+        }
+      }
+    ]
+  }
+  
