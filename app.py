@@ -227,7 +227,7 @@ def main():
                 st.write(f"**Alamat**: {loc['Alamat']}")
                 st.write(loc["Deskripsi"])
                 try:
-                    st.image(loc["Gambar"], caption=loc["Nama"], use_column_width=True)
+                    st.image(loc["Gambar"], caption=loc["Nama"],  use_container_width=True)
                 except Exception as e:
                     st.error("Gambar tidak dapat dimuat")
 
