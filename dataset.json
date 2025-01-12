@@ -1,20 +1,38 @@
 [
   {
     "Nama": "Malioboro Mall",
-    "Latitude": -7.792364,
-    "Longitude": 110.365897,
+    "Latitude": 0.4989140760104992,
+    "Longitude": 101.41564786468909,
     "Kategori": "Mall",
     "Alamat": "Jl. Malioboro No.52-58",
     "Deskripsi": "Pusat perbelanjaan di jantung Yogyakarta",
     "Gambar": "https://i.imgur.com/FFj4j79.jpeg"
   },
   {
+    "Nama": "mall ska",
+    "Latitude": 0.4991710112263645, 
+    "Longitude": 101.41906791012566,
+    "Kategori": "Mall",
+    "Alamat": "Jl. Malioboro No.52-58",
+    "Deskripsi": "Mal ska",
+    "Gambar": "https://i.imgur.com/FFj4j79.jpeg"
+  },
+  { 
     "Nama": "Tugu Yogyakarta",
-    "Latitude": -7.783401,
-    "Longitude": 110.367077,
+    "Latitude": 0.47656826635896143,
+    "Longitude": 101.3809403038196,
     "Kategori": "Landmark",
     "Alamat": "Jl. Jend. Sudirman",
     "Deskripsi": "Landmark ikonik kota Yogyakarta",
+    "Gambar": "https://i.imgur.com/G3mUJnA.png"
+  },
+  { 
+    "Nama": "ehem.., juara daerah riau🏆",
+    "Latitude": 0.5048247110537334, 
+    "Longitude": 101.45298336779832,
+    "Kategori": "hotell",
+    "Alamat": "Jl. Jend. Sudirman",
+    "Deskripsi": "hotel pangeran",
     "Gambar": "https://i.imgur.com/G3mUJnA.png"
   }
 ]
