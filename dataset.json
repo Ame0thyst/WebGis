@@ -1,47 +1,209 @@
 [
   {
-    "Nama": "Malioboro Mall",
-    "Latitude": 0.4989140760104992,
-    "Longitude": 101.41564786468909,
-    "Kategori": "Mall",
-    "Alamat": "Jl. Malioboro No.52-58",
-    "Deskripsi": "Pusat perbelanjaan di jantung Yogyakarta",
-    "Gambar": "https://i.imgur.com/FFj4j79.jpeg"
-  },
-  {
-    "Nama": "mall ska",
-    "Latitude": 0.4991710112263645, 
-    "Longitude": 101.41906791012566,
-    "Kategori": "Mall",
-    "Alamat": "Jl. Malioboro No.52-58",
-    "Deskripsi": "Mal ska",
-    "Gambar": "https://i.imgur.com/FFj4j79.jpeg"
-  },
-  { 
-    "Nama": "Tugu Yogyakarta",
-    "Latitude": 0.47656826635896143,
-    "Longitude": 101.3809403038196,
-    "Kategori": "Landmark",
-    "Alamat": "Jl. Jend. Sudirman",
-    "Deskripsi": "Landmark ikonik kota Yogyakarta",
-    "Gambar": "https://i.imgur.com/G3mUJnA.png"
-  },
-  { 
-    "Nama": "rendi🏆",
-    "Latitude": 0.4848247110537334, 
-    "Longitude": 101.45298336779832,
-    "Kategori": "hotell",
-    "Alamat": "Jl. Jend. Sudirman",
-    "Deskripsi": "hotel pangeran",
-    "Gambar": "https://i.imgur.com/sLSK2uz.jpeg"
-  }, 
-  { 
     "Nama": "Masjid Muslimin",
-    "Latitude": 0.520411, 
+    "Latitude": 0.520411,
     "Longitude": 101.445725,
     "Kategori": "Masjid",
     "Alamat": "Jl. Muslimin, Tanah Datar, Kecamatan Kota, Riau, 28156, Indonesia",
-    "Deskripsi": "Rendi ga pernah solat",
+    "Deskripsi": "Masjid Pekanbaru",
     "Gambar": "https://i.imgur.com/OWy2RPs.jpeg"
+  },
+  {
+    "Nama": "Masjid Al - Hidayah",
+    "Latitude": 0.518073, 
+    "Longitude": 101.445872,
+    "Kategori": "Masjid",
+    "Alamat": "Jadirejo, Kecamatan Sukajadi, Riau, 28156, Indonesia",
+    "Deskripsi": "Masjid Pekanbaru",
+    "Gambar": "https://i.imgur.com/FYCSWij.jpeg"
+  },
+  { 
+    "Nama": "Masjid Al - Ikhlash",
+    "Latitude": 0.520858,
+    "Longitude": 101.438886,
+    "Kategori": "Masjid",
+    "Alamat": "No.61, Jalan KH. Ahmad Dahlan, Sukajadi, Kec. Sukajadi, Riau 28156, Indonesia",
+    "Deskripsi": "Masjid Pekanbaru",
+    "Gambar": "https://i.imgur.com/EQvvGkk.jpeg"
+  },
+  { 
+    "Nama": "Masjid Al - Karomah",
+    "Latitude": 0.517672, 
+    "Longitude": 101.444999,
+    "Kategori": "Masjid",
+    "Alamat": "Jalan Cut Nyak Dhien, Jadirejo, Kec. Sukajadi, Riau, 28156, Indonesia",
+    "Deskripsi": "Masjid Pekanbaru",
+    "Gambar": "https://i.imgur.com/LUUp5ph.jpeg"
+  },
+  { 
+    "Nama": "Masjid Amal Ikhlas",
+    "Latitude": 0.517854, 
+    "Longitude": 101.440469,
+    "Kategori": "Masjid",
+    "Alamat": "266, Jalan Teratai, Sukajadi, Kec. Sukajadi, Riau, 28121, Indonesia",
+    "Deskripsi": "Masjid Pekanbaru",
+    "Gambar": "https://i.imgur.com/3VMa2ki.jpeg"
+  },
+  { 
+    "Nama": "Masjid Ar - Rahim",
+    "Latitude": 0.512155, 
+    "Longitude": 101.445494,
+    "Kategori": "Masjid",
+    "Alamat": "16, Gang Damai, Jadirejo, Kec. Sukajadi, Riau, 28121, Indonesia",
+    "Deskripsi": "Masjid Pekanbaru",
+    "Gambar": "https://i.imgur.com/iw6Rs26.jpeg"
+  },
+  { 
+    "Nama": "Masjid Baitul Hikmah",
+    "Latitude": 0.522039, 
+    "Longitude": 101.445164,
+    "Kategori": "Masjid",
+    "Alamat": "55, Jalan Pangeran Hidayat, Tanah Datar, Kec. Pekanbaru Kota, Riau, 28156, Indonesia",
+    "Deskripsi": "Masjid Pekanbaru",
+    "Gambar": "https://i.imgur.com/ZhKAHjl.jpeg"
+  },
+  { 
+    "Nama": "Masjid Mukhlisin",
+    "Latitude": 0.520155, 
+    "Longitude": 101.441368,
+    "Kategori": "Masjid",
+    "Alamat": "25D, Jalan Pepaya Gang Pepaya I, Pulau Karam, Kec. Sukajadi, Riau, 28156, Indonesia",
+    "Deskripsi": "Masjid Pekanbaru",
+    "Gambar": "https://i.imgur.com/ZDLPBLY.jpeg"
+  },
+  { 
+    "Nama": "Masjid Nurul Iman Khairat",
+    "Latitude": 0.513092, 
+    "Longitude": 101.443535,
+    "Kategori": "Masjid",
+    "Alamat": "32, Jalan Nenas, Kampung Tengah, Kec. Sukajadi, Riau, 28121, Indonesia",
+    "Deskripsi": "Masjid Pekanbaru",
+    "Gambar": "https://i.imgur.com/ZejkCca.jpeg"
+  },
+  { 
+    "Nama": "Masjid Rahmat",
+    "Latitude": 0.511288, 
+    "Longitude": 101.443004,
+    "Kategori": "Masjid",
+    "Alamat": "No. 76, Gg. Rahmat I, Kampung Tengah, Kec. Sukajadi, Riau, 28128, Indonesia",
+    "Deskripsi": "Masjid Pekanbaru",
+    "Gambar": "https://i.imgur.com/6V1cwYA.jpeg"
+  },
+  { 
+    "Nama": "Masjid Raya Al - Khairat",
+    "Latitude": 0.515312, 
+    "Longitude": 101.442882,
+    "Kategori": "Masjid",
+    "Alamat": "No. 19, Jalan Mangga, Jadirejo, Kec. Sukajadi, Riau, 28126, Indonesia",
+    "Deskripsi": "Masjid Pekanbaru",
+    "Gambar": "https://i.imgur.com/CyUuc7Z.jpeg"
+  },
+  { 
+    "Nama": "Masjid Al- Firdaus",
+    "Latitude": 0.468530, 
+    "Longitude": 101.402885,
+    "Kategori": "Masjid",
+    "Alamat": "Jl. Delima, Delima, Kec. Tampan, Kota pekanbaru, Riau 28292, Indonesia",
+    "Deskripsi": "Masjid Pekanbaru",
+    "Gambar": "https://i.imgur.com/7vcxPEU.jpeg"
+  },
+  { 
+    "Nama": "Masjid Al Kausar",
+    "Latitude": 0.474567, 
+    "Longitude": 101.397530,
+    "Kategori": "Masjid",
+    "Alamat": "Jl. Perumnas Rajawali Sakti, Simpang Baru, Kec. Tampan, Kota Pekanbaru, Riau  28292, Indonesia",
+    "Deskripsi": "Masjid Pekanbaru",
+    "Gambar": "https://i.imgur.com/pR1cmZp.jpeg"
+  },
+  { 
+    "Nama": "Masjid Al-Hijrah",
+    "Latitude": 0.481877, 
+    "Longitude": 101.406647,
+    "Kategori": "Masjid",
+    "Alamat": "Jl. Delima, Kec. Tampan, Kota Pekanbaru, Riau 28292, Indonesia",
+    "Deskripsi": "Masjid Pekanbaru",
+    "Gambar": "https://i.imgur.com/e50iFzB.jpeg"
+  },
+  { 
+    "Nama": "Masjid Al-Ikhlas",
+    "Latitude": 0.468530, 
+    "Longitude": 101.402885,
+    "Kategori": "Masjid",
+    "Alamat": "Jl. Delima, Delima, Kec. Tampan, Kota Pekanbaru, Riau 28292, Indonesia",
+    "Deskripsi": "Masjid Pekanbaru",
+    "Gambar": "https://i.imgur.com/UZflAcR.jpeg"
+  },
+  { 
+    "Nama": "Masjid Al-Muhajirin",
+    "Latitude": 0.468674, 
+    "Longitude": 101.397102,
+    "Kategori": "Masjid",
+    "Alamat": "Jl. Rajawali Sakti, Simpang Baru, Kec. Tampan, Kota Pekanbaru, Riau 28292, Indonesia",
+    "Deskripsi": "Masjid Pekanbaru",
+    "Gambar": "https://i.imgur.com/FP8Mbb8.jpeg"
+  },
+  { 
+    "Nama": "Masjid Al-Qadariyah",
+    "Latitude": 0.465530, 
+    "Longitude": 101.402885,
+    "Kategori": "Masjid",
+    "Alamat": "Jl. Delima, Delima, Kec. Tampan, Kota Pekanbaru, Riau 28292, Indonesia",
+    "Deskripsi": "Masjid Pekanbaru",
+    "Gambar": "https://i.imgur.com/N9cDcEp.jpeg"
+  },
+  { 
+    "Nama": "Masjid Az-Zahra",
+    "Latitude": 0.478036, 
+    "Longitude": 101.400841,
+    "Kategori": "Masjid",
+    "Alamat": "Delima, Kec. Tampan, Kota Pekanbaru, Riau 28292, Indonesia",
+    "Deskripsi": "Masjid Pekanbaru",
+    "Gambar": "https://i.imgur.com/RnwyIHm.jpeg"
+  },
+  { 
+    "Nama": "Masjid Nur Ilahi",
+    "Latitude": 0.481877, 
+    "Longitude": 101.406647,
+    "Kategori": "Masjid",
+    "Alamat": "Delima, Kec. Tampan, Kota Pekanbaru, Riau 28292, Indonesia",
+    "Deskripsi": "Masjid Pekanbaru",
+    "Gambar": "https://i.imgur.com/b6K0KLV.jpeg"
+  },
+  { 
+    "Nama": "Masjid Nurul Ilmi",
+    "Latitude": 0.468530, 
+    "Longitude": 101.402885,
+    "Kategori": "Masjid",
+    "Alamat": "Jl. Delima, Delima, Kec. Tampan, Kota Pekanbaru, Riau 28292, Indonesia",
+    "Deskripsi": "Masjid Pekanbaru",
+    "Gambar": "https://i.imgur.com/2fFhX7N.jpeg"
+  },
+  { 
+    "Nama": "Masjid Nurul Jadid",
+    "Latitude": 0.468530, 
+    "Longitude": 101.402885,
+    "Kategori": "Masjid",
+    "Alamat": "Jl. Delima, Delima, Kec. Tampan, Kota Pekanbaru, Riau 28292, Indonesia",
+    "Deskripsi": "Masjid Pekanbaru",
+    "Gambar": "https://i.imgur.com/aiJPmo2.jpeg"
+  },
+  { 
+    "Nama": "Mushalla Al - Mustaqim",
+    "Latitude": 0.519387, 
+    "Longitude": 101.442713,
+    "Kategori": "Mushalla",
+    "Alamat": "8, Jalan Jendral Ahmad Yani",
+    "Deskripsi": "Mushalla Pekanbaru",
+    "Gambar": "https://i.imgur.com/KJQVtDq.jpeg"
+  },
+  { 
+    "Nama": "Mushalla Mi_Rajul Mukminin",
+    "Latitude": 0.513296, 
+    "Longitude": 101.445976,
+    "Kategori": "Mushalla",
+    "Alamat": "57-59, Jalan Pepaya",
+    "Deskripsi": "Mushalla Pekanbaru",
+    "Gambar": "https://i.imgur.com/CMQb9cY.jpeg"
   }
 ]
