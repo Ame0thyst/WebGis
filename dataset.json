@@ -34,5 +34,14 @@
     "Alamat": "Jl. Jend. Sudirman",
     "Deskripsi": "hotel pangeran",
     "Gambar": "https://i.imgur.com/sLSK2uz.jpeg"
+  }, 
+  { 
+    "Nama": "Masjid Muslimin",
+    "Latitude": 0.520411, 
+    "Longitude": 101.445725,
+    "Kategori": "Masjid",
+    "Alamat": "Jl. Muslimin, Tanah Datar, Kecamatan Kota, Riau, 28156, Indonesia",
+    "Deskripsi": "Rendi ga pernah solat",
+    "Gambar": "https://i.imgur.com/OWy2RPs.jpeg"
   }
 ]
