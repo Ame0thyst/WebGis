@@ -1,0 +1,65 @@
+[
+  {
+    "Nama": "Gereja katolik Stasi St. Petrus Kulim",
+    "Latitude": 0.51604,
+    "Longitude": 101.50141,
+    "Kategori": "Gereja",
+    "Alamat": "Bencah Lesung, Kec. Tenayan Raya, Kota Pekanbaru, Riau 28131",
+    "Deskripsi": "Gereja Pekanbaru",
+    "Gambar": "https://i.imgur.com/NwlL8aE.png"
+  },
+  {
+    "Nama": "Musholla Al Muflihin",
+    "Latitude": 0.53863, 
+    "Longitude": 101.44624,
+    "Kategori": "Musholla",
+    "Alamat": "Kp. Dalam, Kec. Senapelan, Kota Pekanbaru, Riau 28155",
+    "Deskripsi": "Musholla Pekanbaru",
+    "Gambar": "https://i.imgur.com/uxCLMHe.jpeg"
+  },
+  { 
+    "Nama": "Masjid Raya Kota Pekanbaru",
+    "Latitude": 0.53789,
+    "Longitude": 101.44216,
+    "Kategori": "Masjid",
+    "Alamat": "Jl. Senapelan No.128, Kp. Bandar, Kec. Senapelan, Kota Pekanbaru, Riau 28155",
+    "Deskripsi": "Masjid Pekanbaru",
+    "Gambar": "https://i.imgur.com/6Ps49Cb.jpeg"
+  },
+  { 
+    "Nama": "Masjid Nurul Yaqin",
+    "Latitude": 0.52454, 
+    "Longitude": 101.46829,
+    "Kategori": "Masjid",
+    "Alamat": "Jl. Hangtuah No.2, Rejosari, Kec. Tenayan Raya, Kota Pekanbaru, Riau 28111",
+    "Deskripsi": "Masjid Pekanbaru",
+    "Gambar": "https://i.imgur.com/fB9PitY.png"
+  },
+  { 
+    "Nama": "Gereja Katolik Paroki St. Maria a Fatima",
+    "Latitude": 0.52773, 
+    "Longitude": 101.44231,
+    "Kategori": "Gereja",
+    "Alamat": "Jl. Jend. Ahmad Yani No.48, Pulau Karam, Kec. Sukajadi, Kota Pekanbaru, Riau 21411",
+    "Deskripsi": "Gerjea Pekanbaru",
+    "Gambar": "https://i.imgur.com/JZj1JnW.jpeg"
+  },
+  {  
+    "Nama": "Musholla Baitul Amal",
+    "Latitude": 0.52306, 
+    "Longitude": 101.43800,
+    "Kategori": "Musholla",
+    "Alamat": "Jl. Dahlia, Sukajadi, Kec. Sukajadi, Kota Pekanbaru, Riau 28156",
+    "Deskripsi": "Musholla Pekanbaru",
+    "Gambar": "https://i.imgur.com/u0AEoVM.jpeg"
+  },
+  { 
+    "Nama": "Musholla Al Manar",
+    "Latitude": 0.51646, 
+    "Longitude": 101.42073,
+    "Kategori": "Musholla",
+    "Alamat": "Gg. Al Manar, Labuh Baru Tim., Kec. Payung Sekaki, Kota Pekanbaru, Riau 28123",
+    "Deskripsi": "Musholla Pekanbaru",
+    "Gambar": "https://i.imgur.com/nrg5m4D.jpeg"
+  }
+]
