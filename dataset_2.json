@@ -8,33 +8,6 @@
     "Deskripsi": "Gereja Pekanbaru",
     "Gambar": "https://i.imgur.com/NwlL8aE.png"
   },
-  {
-    "Nama": "Musholla Al Muflihin",
-    "Latitude": 0.53863, 
-    "Longitude": 101.44624,
-    "Kategori": "Musholla",
-    "Alamat": "Kp. Dalam, Kec. Senapelan, Kota Pekanbaru, Riau 28155",
-    "Deskripsi": "Musholla Pekanbaru",
-    "Gambar": "https://i.imgur.com/uxCLMHe.jpeg"
-  },
-  { 
-    "Nama": "Masjid Raya Kota Pekanbaru",
-    "Latitude": 0.53789,
-    "Longitude": 101.44216,
-    "Kategori": "Masjid",
-    "Alamat": "Jl. Senapelan No.128, Kp. Bandar, Kec. Senapelan, Kota Pekanbaru, Riau 28155",
-    "Deskripsi": "Masjid Pekanbaru",
-    "Gambar": "https://i.imgur.com/6Ps49Cb.jpeg"
-  },
-  { 
-    "Nama": "Masjid Nurul Yaqin",
-    "Latitude": 0.52454, 
-    "Longitude": 101.46829,
-    "Kategori": "Masjid",
-    "Alamat": "Jl. Hangtuah No.2, Rejosari, Kec. Tenayan Raya, Kota Pekanbaru, Riau 28111",
-    "Deskripsi": "Masjid Pekanbaru",
-    "Gambar": "https://i.imgur.com/fB9PitY.png"
-  },
   { 
     "Nama": "Gereja Katolik Paroki St. Maria a Fatima",
     "Latitude": 0.52773, 
@@ -43,6 +16,69 @@
     "Alamat": "Jl. Jend. Ahmad Yani No.48, Pulau Karam, Kec. Sukajadi, Kota Pekanbaru, Riau 21411",
     "Deskripsi": "Gerjea Pekanbaru",
     "Gambar": "https://i.imgur.com/JZj1JnW.jpeg"
+  },
+  { 
+    "Nama": "Gereja OIKUMENE",
+    "Latitude": 0.463459205992896, 
+    "Longitude": 101.44057630993491,
+    "Kategori": "Gereja",
+    "Alamat": "Perhentian Marpoyan, Kec. Marpoyan Damai, Kota Pekanbaru, Riau 28288",
+    "Deskripsi": "Gereja Pekanbaru",
+    "Gambar": "https://i.imgur.com/3DCGCbC.png"
+  },
+  { 
+    "Nama": "Gereja GPdI Jemaat Cendana",
+    "Latitude": 0.4657593079606754, 
+    "Longitude": 101.49850264352114,
+    "Kategori": "Gereja",
+    "Alamat": "Tengkerang Tim., Kec. Tenayan Raya, Kota Pekanbaru, Riau 28289",
+    "Deskripsi": "Gereja Pekanbaru",
+    "Gambar": "https://i.imgur.com/h8beLiI.png"
+  },
+  { 
+    "Nama": "Gereja GPI Torsina",
+    "Latitude": 0.4345995235865788, 
+    "Longitude": 101.42619966962693,
+    "Kategori": "Gereja",
+    "Alamat": "Unnamed Road, Perhentian Marpoyan, Kec. Marpoyan Damai, Kota Pekanbaru, Riau 28283",
+    "Deskripsi": "Gereja Pekanbaru",
+    "Gambar": "https://i.imgur.com/3m2FNdN.jpeg"
+  },
+  { 
+    "Nama": "Gereja Masehi Advent Hari Ketujuh Saudara",
+    "Latitude": 0.4405786791130977, 
+    "Longitude": 101.38791548901361,
+    "Kategori": "Gereja",
+    "Alamat": "Tuah Karya, Kec. Tampan, Kota Pekanbaru, Riau 28293",
+    "Deskripsi": "Gereja Pekanbaru",
+    "Gambar": "https://i.imgur.com/G6d8a1G.png"
+  },
+  { 
+    "Nama": "Gereja Katolik Stasi Santa Agatha, Tarai Bangun",
+    "Latitude": 0.4204890385559806, 
+    "Longitude": 101.3716638930826,
+    "Kategori": "Gereja",
+    "Alamat": "Tarai Bangun, Kec. Tambang, Kabupaten Kampar, Riau 28293",
+    "Deskripsi": "Gereja Pekanbaru",
+    "Gambar": "https://i.imgur.com/Vo3tLys.png"
+  },
+  { 
+    "Nama": "Musholla Al Manar",
+    "Latitude": 0.51646, 
+    "Longitude": 101.42073,
+    "Kategori": "Musholla",
+    "Alamat": "Gg. Al Manar, Labuh Baru Tim., Kec. Payung Sekaki, Kota Pekanbaru, Riau 28123",
+    "Deskripsi": "Musholla Pekanbaru",
+    "Gambar": "https://i.imgur.com/nrg5m4D.jpeg"
+  },
+  {
+    "Nama": "Musholla Al Muflihin",
+    "Latitude": 0.53863, 
+    "Longitude": 101.44624,
+    "Kategori": "Musholla",
+    "Alamat": "Kp. Dalam, Kec. Senapelan, Kota Pekanbaru, Riau 28155",
+    "Deskripsi": "Musholla Pekanbaru",
+    "Gambar": "https://i.imgur.com/uxCLMHe.jpeg"
   },
   {  
     "Nama": "Musholla Baitul Amal",
@@ -54,12 +90,102 @@
     "Gambar": "https://i.imgur.com/u0AEoVM.jpeg"
   },
   { 
-    "Nama": "Musholla Al Manar",
-    "Latitude": 0.51646, 
-    "Longitude": 101.42073,
+    "Nama": "Musholla Al-Hidayah",
+    "Latitude": 0.44632758765087605, 
+    "Longitude": 101.41643342147042,
     "Kategori": "Musholla",
-    "Alamat": "Gg. Al Manar, Labuh Baru Tim., Kec. Payung Sekaki, Kota Pekanbaru, Riau 28123",
+    "Alamat": "Jl. Pahlawan No.93, Sidomulyo Bar., Kec. Tampan, Kota Pekanbaru, Riau 28293",
     "Deskripsi": "Musholla Pekanbaru",
-    "Gambar": "https://i.imgur.com/nrg5m4D.jpeg"
+    "Gambar": "https://i.imgur.com/syBDhEQ.png"
+  },
+  { 
+    "Nama": "Musholla Al-Bayyinat",
+    "Latitude": 0.455130887892769, 
+    "Longitude": 101.3989785733718,
+    "Kategori": "Musholla",
+    "Alamat": "Sidomulyo Bar., Kec. Tampan, Kota Pekanbaru, Riau 28294",
+    "Deskripsi": "Musholla Pekanbaru",
+    "Gambar": "https://i.imgur.com/qXUZYQX.png"
+  },
+  { 
+    "Nama": "Musholla Al-Mu'min",
+    "Latitude": 0.4165036294894934, 
+    "Longitude": 101.42297371898664,
+    "Kategori": "Musholla",
+    "Alamat": "Gg. Sekolah 1, Kubang Jaya, Kec. Siak Hulu, Kabupaten Kampar, Riau 28293",
+    "Deskripsi": "Musholla Pekanbaru",
+    "Gambar": "https://i.imgur.com/eRdJzQp.png"
+  },
+  { 
+    "Nama": "Musholla Al-Mubarokah",
+    "Latitude": 0.5398241284316715, 
+    "Longitude": 101.44022225834492,
+    "Kategori": "Musholla",
+    "Alamat": "Kp. Bandar, Kec. Senapelan, Kota Pekanbaru, Riau 28155",
+    "Deskripsi": "Musholla Pekanbaru",
+    "Gambar": "https://i.imgur.com/zksv47X.jpeg"
+  },
+  { 
+    "Nama": "Klenteng Dewi Kwan Im - Jundul Lama",
+    "Latitude": 0.5288682376690934, 
+    "Longitude": 101.46878991952136,
+    "Kategori": "Klenteng",
+    "Alamat": "Sekip, Kec. Lima Puluh, Kota Pekanbaru, Riau 28151",
+    "Deskripsi": "Klenteng Pekanbaru",
+    "Gambar": "https://i.imgur.com/ZYVbvuC.png"
+  },
+  { 
+    "Nama": "Kelenteng TITD Dewi Buddhaya",
+    "Latitude": 0.5230878642432293, 
+    "Longitude": 101.40374421574236,
+    "Kategori": "Klenteng",
+    "Alamat": "Labuh Baru Bar., Kec. Payung Sekaki, Kota Pekanbaru, Riau",
+    "Deskripsi": "Klenteng Pekanbaru",
+    "Gambar": "https://i.imgur.com/53Qzlg5.jpeg"
+  },
+  { 
+    "Nama": "Klenteng Hong San Kiong",
+    "Latitude": 0.5412909233212106, 
+    "Longitude": 101.45894959401534,
+    "Kategori": "Klenteng",
+    "Alamat": "Pesisir, Kec. Lima Puluh, Kota Pekanbaru, Riau 28151",
+    "Deskripsi": "Klenteng Pekanbaru",
+    "Gambar": "https://i.imgur.com/eyWZYAn.png"
+  },
+  { 
+    "Nama": "Kelenteng TITD Tri Sakti",
+    "Latitude": 0.5604547290226402, 
+    "Longitude": 101.40069722627767,
+    "Kategori": "Klenteng",
+    "Alamat": "Jl. Gotong Royong, Sri Meranti, Kec. Rumbai, Kota Pekanbaru, Riau 28266",
+    "Deskripsi": "Klenteng Pekanbaru",
+    "Gambar": "https://i.imgur.com/MZRBrLB.jpeg"
+  },
+  { 
+    "Nama": "Kelenteng Dewi Samudera Sakti",
+    "Latitude": 0.5468671944986996, 
+    "Longitude": 101.45589369613917,
+    "Kategori": "Klenteng",
+    "Alamat": "Meranti Pandak, Kec. Rumbai Pesisir, Kota Pekanbaru, Riau 28153",
+    "Deskripsi": "Klenteng Pekanbaru",
+    "Gambar": "https://i.imgur.com/DHrRDFU.jpeg"
+  },
+  { 
+    "Nama": "Kelenteng Pi Li Gong",
+    "Latitude": 0.5336357375202144, 
+    "Longitude": 101.46021436399396,
+    "Kategori": "Klenteng",
+    "Alamat": "Jl. Kampar No.47, Sekip, Kec. Lima Puluh, Kota Pekanbaru, Riau 28151",
+    "Deskripsi": "Klenteng Pekanbaru",
+    "Gambar": "https://i.imgur.com/Hr71U2D.jpeg"
+  },
+  { 
+    "Nama": "Kelenteng Sam Ong Hu",
+    "Latitude": 0.5298105226642194, 
+    "Longitude": 101.40618568297664,
+    "Kategori": "Klenteng",
+    "Alamat": "Jl. Harapan Jaya, Air Hitam, Kec. Payung Sekaki, Kota Pekanbaru, Riau",
+    "Deskripsi": "Klenteng Pekanbaru",
+    "Gambar": "https://i.imgur.com/wArytzS.jpeg"
   }
 ]
