@@ -205,5 +205,329 @@
     "Alamat": "57-59, Jalan Pepaya",
     "Deskripsi": "Mushalla Pekanbaru",
     "Gambar": "https://i.imgur.com/CMQb9cY.jpeg"
-  }
+  },
+  {
+    "Nama": "Gereja katolik Stasi St. Petrus Kulim",
+    "Latitude": 0.51604,
+    "Longitude": 101.50141,
+    "Kategori": "Gereja",
+    "Alamat": "Bencah Lesung, Kec. Tenayan Raya, Kota Pekanbaru, Riau 28131",
+    "Deskripsi": "Gereja Pekanbaru",
+    "Gambar": "https://i.imgur.com/NwlL8aE.png"
+  },
+  { 
+    "Nama": "Gereja Katolik Paroki St. Maria a Fatima",
+    "Latitude": 0.52773, 
+    "Longitude": 101.44231,
+    "Kategori": "Gereja",
+    "Alamat": "Jl. Jend. Ahmad Yani No.48, Pulau Karam, Kec. Sukajadi, Kota Pekanbaru, Riau 21411",
+    "Deskripsi": "Gerjea Pekanbaru",
+    "Gambar": "https://i.imgur.com/JZj1JnW.jpeg"
+  },
+  { 
+    "Nama": "Gereja OIKUMENE",
+    "Latitude": 0.463459205992896, 
+    "Longitude": 101.44057630993491,
+    "Kategori": "Gereja",
+    "Alamat": "Perhentian Marpoyan, Kec. Marpoyan Damai, Kota Pekanbaru, Riau 28288",
+    "Deskripsi": "Gereja Pekanbaru",
+    "Gambar": "https://i.imgur.com/3DCGCbC.png"
+  },
+  { 
+    "Nama": "Gereja GPdI Jemaat Cendana",
+    "Latitude": 0.4657593079606754, 
+    "Longitude": 101.49850264352114,
+    "Kategori": "Gereja",
+    "Alamat": "Tengkerang Tim., Kec. Tenayan Raya, Kota Pekanbaru, Riau 28289",
+    "Deskripsi": "Gereja Pekanbaru",
+    "Gambar": "https://i.imgur.com/h8beLiI.png"
+  },
+  { 
+    "Nama": "Gereja GPI Torsina",
+    "Latitude": 0.4345995235865788, 
+    "Longitude": 101.42619966962693,
+    "Kategori": "Gereja",
+    "Alamat": "Unnamed Road, Perhentian Marpoyan, Kec. Marpoyan Damai, Kota Pekanbaru, Riau 28283",
+    "Deskripsi": "Gereja Pekanbaru",
+    "Gambar": "https://i.imgur.com/3m2FNdN.jpeg"
+  },
+  { 
+    "Nama": "Gereja Masehi Advent Hari Ketujuh Saudara",
+    "Latitude": 0.4405786791130977, 
+    "Longitude": 101.38791548901361,
+    "Kategori": "Gereja",
+    "Alamat": "Tuah Karya, Kec. Tampan, Kota Pekanbaru, Riau 28293",
+    "Deskripsi": "Gereja Pekanbaru",
+    "Gambar": "https://i.imgur.com/G6d8a1G.png"
+  },
+  { 
+    "Nama": "Gereja Katolik Stasi Santa Agatha, Tarai Bangun",
+    "Latitude": 0.4204890385559806, 
+    "Longitude": 101.3716638930826,
+    "Kategori": "Gereja",
+    "Alamat": "Tarai Bangun, Kec. Tambang, Kabupaten Kampar, Riau 28293",
+    "Deskripsi": "Gereja Pekanbaru",
+    "Gambar": "https://i.imgur.com/Vo3tLys.png"
+  },
+  { 
+    "Nama": "Musholla Al Manar",
+    "Latitude": 0.51646, 
+    "Longitude": 101.42073,
+    "Kategori": "Musholla",
+    "Alamat": "Gg. Al Manar, Labuh Baru Tim., Kec. Payung Sekaki, Kota Pekanbaru, Riau 28123",
+    "Deskripsi": "Musholla Pekanbaru",
+    "Gambar": "https://i.imgur.com/nrg5m4D.jpeg"
+  },
+  {
+    "Nama": "Musholla Al Muflihin",
+    "Latitude": 0.53863, 
+    "Longitude": 101.44624,
+    "Kategori": "Musholla",
+    "Alamat": "Kp. Dalam, Kec. Senapelan, Kota Pekanbaru, Riau 28155",
+    "Deskripsi": "Musholla Pekanbaru",
+    "Gambar": "https://i.imgur.com/uxCLMHe.jpeg"
+  },
+  {  
+    "Nama": "Musholla Baitul Amal",
+    "Latitude": 0.52306, 
+    "Longitude": 101.43800,
+    "Kategori": "Musholla",
+    "Alamat": "Jl. Dahlia, Sukajadi, Kec. Sukajadi, Kota Pekanbaru, Riau 28156",
+    "Deskripsi": "Musholla Pekanbaru",
+    "Gambar": "https://i.imgur.com/u0AEoVM.jpeg"
+  },
+  { 
+    "Nama": "Musholla Al-Hidayah",
+    "Latitude": 0.44632758765087605, 
+    "Longitude": 101.41643342147042,
+    "Kategori": "Musholla",
+    "Alamat": "Jl. Pahlawan No.93, Sidomulyo Bar., Kec. Tampan, Kota Pekanbaru, Riau 28293",
+    "Deskripsi": "Musholla Pekanbaru",
+    "Gambar": "https://i.imgur.com/syBDhEQ.png"
+  },
+  { 
+    "Nama": "Musholla Al-Bayyinat",
+    "Latitude": 0.455130887892769, 
+    "Longitude": 101.3989785733718,
+    "Kategori": "Musholla",
+    "Alamat": "Sidomulyo Bar., Kec. Tampan, Kota Pekanbaru, Riau 28294",
+    "Deskripsi": "Musholla Pekanbaru",
+    "Gambar": "https://i.imgur.com/qXUZYQX.png"
+  },
+  { 
+    "Nama": "Musholla Al-Mu'min",
+    "Latitude": 0.4165036294894934, 
+    "Longitude": 101.42297371898664,
+    "Kategori": "Musholla",
+    "Alamat": "Gg. Sekolah 1, Kubang Jaya, Kec. Siak Hulu, Kabupaten Kampar, Riau 28293",
+    "Deskripsi": "Musholla Pekanbaru",
+    "Gambar": "https://i.imgur.com/eRdJzQp.png"
+  },
+  { 
+    "Nama": "Musholla Al-Mubarokah",
+    "Latitude": 0.5398241284316715, 
+    "Longitude": 101.44022225834492,
+    "Kategori": "Musholla",
+    "Alamat": "Kp. Bandar, Kec. Senapelan, Kota Pekanbaru, Riau 28155",
+    "Deskripsi": "Musholla Pekanbaru",
+    "Gambar": "https://i.imgur.com/zksv47X.jpeg"
+  },
+  { 
+    "Nama": "Klenteng Dewi Kwan Im - Jundul Lama",
+    "Latitude": 0.5288682376690934, 
+    "Longitude": 101.46878991952136,
+    "Kategori": "Klenteng",
+    "Alamat": "Sekip, Kec. Lima Puluh, Kota Pekanbaru, Riau 28151",
+    "Deskripsi": "Klenteng Pekanbaru",
+    "Gambar": "https://i.imgur.com/ZYVbvuC.png"
+  },
+  { 
+    "Nama": "Kelenteng TITD Dewi Buddhaya",
+    "Latitude": 0.5230878642432293, 
+    "Longitude": 101.40374421574236,
+    "Kategori": "Klenteng",
+    "Alamat": "Labuh Baru Bar., Kec. Payung Sekaki, Kota Pekanbaru, Riau",
+    "Deskripsi": "Klenteng Pekanbaru",
+    "Gambar": "https://i.imgur.com/53Qzlg5.jpeg"
+  },
+  { 
+    "Nama": "Klenteng Hong San Kiong",
+    "Latitude": 0.5412909233212106, 
+    "Longitude": 101.45894959401534,
+    "Kategori": "Klenteng",
+    "Alamat": "Pesisir, Kec. Lima Puluh, Kota Pekanbaru, Riau 28151",
+    "Deskripsi": "Klenteng Pekanbaru",
+    "Gambar": "https://i.imgur.com/eyWZYAn.png"
+  },
+  { 
+    "Nama": "Kelenteng TITD Tri Sakti",
+    "Latitude": 0.5604547290226402, 
+    "Longitude": 101.40069722627767,
+    "Kategori": "Klenteng",
+    "Alamat": "Jl. Gotong Royong, Sri Meranti, Kec. Rumbai, Kota Pekanbaru, Riau 28266",
+    "Deskripsi": "Klenteng Pekanbaru",
+    "Gambar": "https://i.imgur.com/MZRBrLB.jpeg"
+  },
+  { 
+    "Nama": "Kelenteng Dewi Samudera Sakti",
+    "Latitude": 0.5468671944986996, 
+    "Longitude": 101.45589369613917,
+    "Kategori": "Klenteng",
+    "Alamat": "Meranti Pandak, Kec. Rumbai Pesisir, Kota Pekanbaru, Riau 28153",
+    "Deskripsi": "Klenteng Pekanbaru",
+    "Gambar": "https://i.imgur.com/DHrRDFU.jpeg"
+  },
+  { 
+    "Nama": "Kelenteng Pi Li Gong",
+    "Latitude": 0.5336357375202144, 
+    "Longitude": 101.46021436399396,
+    "Kategori": "Klenteng",
+    "Alamat": "Jl. Kampar No.47, Sekip, Kec. Lima Puluh, Kota Pekanbaru, Riau 28151",
+    "Deskripsi": "Klenteng Pekanbaru",
+    "Gambar": "https://i.imgur.com/Hr71U2D.jpeg"
+  },
+  { 
+    "Nama": "Kelenteng Sam Ong Hu",
+    "Latitude": 0.5298105226642194, 
+    "Longitude": 101.40618568297664,
+    "Kategori": "Klenteng",
+    "Alamat": "Jl. Harapan Jaya, Air Hitam, Kec. Payung Sekaki, Kota Pekanbaru, Riau",
+    "Deskripsi": "Klenteng Pekanbaru",
+    "Gambar": "https://i.imgur.com/wArytzS.jpeg"
+  },
+  {
+    "Nama": "Vihara Dharma Loka",
+    "Latitude": 0.535546515814535, 
+    "Longitude": 101.44441808680878,
+    "Kategori": "vihara",
+    "Alamat": "Jl. Dr. Leimena No.41, Sago, Kec. Senapelan, Kota Pekanbaru, Riau 28155",
+    "Deskripsi": "Vihara Pekanbaru",
+    "Gambar": "https://i.imgur.com/r3X3pOW.jpeg"
+  },
+  {
+    "Nama": "Vihara Surya Dharma",
+    "Latitude": 0.5332476402738952, 
+    "Longitude": 101.42617811211423,
+    "Kategori": "Vihara",
+    "Alamat": "Jl. Angkasa No.9, Air Hitam, Kec. Payung Sekaki, Kota Pekanbaru, Riau 28291",
+    "Deskripsi": "Vihara Pekanbaru",
+    "Gambar": "https://i.imgur.com/VmUFGsS.jpeg"
+  },
+  {
+      "Nama": "Vihara Budi Dharma",
+      "Latitude": 0.5349212659524843,
+      "Longitude": 101.42669309620845,
+      "Kategori": "Vihara",
+      "Alamat": "Building, JL. Riau Gg. Siti Nisap, Gg. Dwikarsa No.2, Tampan, Payung Sekaki, Pekanbaru City, Riau 28291",
+      "Deskripsi": "Vihara Pekanbaru",
+      "Gambar": "https://i.imgur.com/tFwFruR.jpeg"
+    },
+    {
+      "Nama": "Vihara Dhamma Metta Arama",
+      "Latitude": 0.5292486385361562,
+      "Longitude": 101.41055703025746,
+      "Kategori": "Vihara",
+      "Alamat": "Jl. Riau Ujung Jl. Karya Maju, Air Hitam, Kec. Payung Sekaki, Kota Pekanbaru, Riau 28291",
+      "Deskripsi": "Vihara Pekanbaru",
+      "Gambar": "https://i.imgur.com/1bZBbKN.jpeg"
+    },
+    {
+      "Nama": "Kelenteng Dewi Sakti",
+      "Latitude": 0.5352136139015884,
+      "Longitude": 101.40635132682135,
+      "Kategori": "Vihara",
+      "Alamat": "GCM4+RC9, Jl. Karya Indah, Air Hitam, Kec. Payung Sekaki, Kota Pekanbaru, Riau 28291",
+      "Deskripsi": "Vihara Pekanbaru",
+      "Gambar": "https://i.imgur.com/ukctzjk.jpeg"
+    },
+    {
+      "Nama": "Cetya Tridharma Avalokitesvara",
+      "Latitude": 0.5390676151424729, 
+      "Longitude": 101.40556126858482,
+      "Kategori": "Vihara",
+      "Alamat": "GCQ4+972, Tampan, Kec. Payung Sekaki, Kota Pekanbaru, Riau",
+      "Deskripsi": "Vihara Pekanbaru",
+      "Gambar": "https://i.imgur.com/xZUzlpa.jpeg"
+    },
+    {
+      "Nama": "Vihara Pubba Mangala Arama Pekanbaru",
+      "Latitude": 0.5195796800555995, 
+      "Longitude": 101.38817399604652,
+      "Kategori": "Vihara",
+      "Alamat": "Bhakti Ujung, Jl. Dharma Bakti, Labuh Baru Barat, Payung Sekaki, Pekanbaru City, Riau 28292",
+      "Deskripsi": "Vihara Pekanbaru",
+      "Gambar": "https://i.imgur.com/eQbuiq6.jpeg"
+    },
+    {
+      "Nama": "Kelenteng DOU MU NIANG NIANG (Marici Bodhisatva)",
+      "Latitude": 0.5156149224094859, 
+      "Longitude": 101.42959467399618,
+      "Kategori": "Vihara",
+      "Alamat": "GC7H+WVF, Jl. Palapa, Labuh Baru Tim., Kec. Payung Sekaki, Kota Pekanbaru, Riau 28123",
+      "Deskripsi": "Vihara Pekanbaru",
+      "Gambar": "https://i.imgur.com/T7cplSo.jpeg"
+    },
+    {
+      "Nama": "Vihara Dhammaguna Buddhis Centre (DBC)",
+      "Latitude": 0.5034870673489997,
+      "Longitude": 101.4228381976006,
+      "Kategori": "Vihara",
+      "Alamat": "Komplek Puri Nangkasari, Jl. Tuanku Tambusai No.6 Blok E, Tengkerang Bar., Kec. Marpoyan Damai, Kota Pekanbaru, Riau 28124",
+      "Deskripsi": "Vihara Pekanbaru",
+      "Gambar": "https://i.imgur.com/RR9CzsX.jpeg"
+    },
+    {
+      "Nama": "Vihara Vimalakirti Pekanbaru",
+      "Latitude": 0.5017705196653928,
+      "Longitude": 101.424554811248,
+      "Kategori": "Vihara",
+      "Alamat": "FCXF+QRX, Tengkerang Bar., Kec. Marpoyan Damai, Kota Pekanbaru, Riau 28124",
+      "Deskripsi": "Vihara Pekanbaru",
+      "Gambar": "https://i.imgur.com/E8M9aSf.jpeg"
+    },
+    {
+      "Nama": "Vihara Dharma Manggala Panam Pekanbaru",
+      "Latitude": 0.46677430702753187, 
+      "Longitude": 101.39191030910051,
+      "Kategori": "Vihara",
+      "Alamat": "F97R+8HJ, Jl. HR. Soebrantas, Tuah Karya, Kec. Tampan, Kota Pekanbaru, Riau 28293",
+      "Deskripsi": "Vihara Pekanbaru",
+      "Gambar": "https://i.imgur.com/HhcUkvJ.jpeg"
+    },
+    {
+      "Nama": "Kelenteng Dewi Samudera Sakti",
+      "Latitude": 0.5493401762355551,
+      "Longitude": 101.45508169873825,
+      "Kategori": "Vihara",
+      "Alamat": "GFW4+Q9W, Meranti Pandak, Kec. Rumbai Pesisir, Kota Pekanbaru, Riau 28153",
+      "Deskripsi": "Vihara Pekanbaru",
+      "Gambar": "https://i.imgur.com/JV7VrRZ.jpeg"
+    },
+    {
+      "Nama": "Vihara Vimala Virya",
+      "Latitude": 0.540070880697921, 
+      "Longitude": 101.46778464073056,
+      "Kategori": "Vihara",
+      "Alamat": "Perum. Lokomotif (Jondul Baru, Jl. Lokomotif No.18-20, Kelurahan, Tj. Rhu, Kec. Lima Puluh, Kota Pekanbaru, Riau 28151",
+      "Deskripsi": "Vihara Pekanbaru",
+      "Gambar": "https://i.imgur.com/RLSSPxc.jpeg"
+    },
+    {
+      "Nama": "Klenteng Dewi Kwan Im - Jundul Lama",
+      "Latitude": 0.5314881872887165,
+      "Longitude": 101.46864294755426,
+      "Kategori": "Vihara",
+      "Alamat": "GFH9+Q96, Sekip, Kec. Lima Puluh, Kota Pekanbaru, Riau 28151",
+      "Deskripsi": "Vihara Pekanbaru",
+      "Gambar": "https://i.imgur.com/YposQhz.jpeg"
+    },
+    {
+      "Nama": "Cetiya Trisaranagamana",
+      "Latitude": 0.5361359200908721, 
+      "Longitude": 101.42601537369535,
+      "Kategori": "Vihara",
+      "Alamat": "Jl. Riau Gg. Trisarana No.187-K, Air Hitam, Kec. Payung Sekaki, Kota Pekanbaru, Riau 28291",
+      "Deskripsi": "Vihara Pekanbaru",
+      "Gambar": "https://i.imgur.com/V88FaDk.jpeg"
+    }
 ]
