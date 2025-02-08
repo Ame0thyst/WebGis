@@ -3,3 +3,6 @@ streamlit
 folium
 streamlit-folium
 openrouteservice
+dotenv
+polyline
+plotly
