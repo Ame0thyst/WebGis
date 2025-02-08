@@ -3,6 +3,7 @@ streamlit
 folium
 streamlit-folium
 openrouteservice
-dotenv
-polyline
+python-dotenv
 plotly
+numpy
+pandas
