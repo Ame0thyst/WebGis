@@ -10,6 +10,8 @@ from folium import LayerControl
 import openrouteservice as ors
 from dotenv import load_dotenv
 from static.feat.Visualization import create_data_visualization_tab
+from static.feat.displayFeedback import display_feedback_tab
+from static.feat.sidebar import display_sidebar
 import polyline
 import plotly.graph_objs as go
 import numpy as np
@@ -267,7 +269,7 @@ def initialize_session_state():
 
 def create_base_map():
     """Membuat peta dasar dengan plugin standar"""
-    m = folium.Map(location=[0.5071, 101.4478], zoom_start=9)
+    m = folium.Map(location=[0.5071, 101.4478], zoom_start=9, control_scale=True,)
     Geocoder().add_to(m)
     
     # Tambahkan layer satelit
@@ -362,7 +364,7 @@ def main():
 
     
     # Buat dua tab
-    tab1, tab2, tab3, tab4, tab5 = st.tabs(["Peta Utama", "Peta Rute", "Para Pejuang 👑", "📊 Data Insights","Feedback"])
+    tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["Peta Utama", "Peta Rute", "Para Pejuang 👑", "📊 Data Insights","Feedback", "Display Feedback"])
     
     with tab1:
         # Pencarian lokasi
@@ -630,30 +632,6 @@ def main():
         # Container untuk profile cards
         st.markdown('<div class="profile-container">', unsafe_allow_html=True)
         
-        # Data anggota tim
-        # team_members = [
-        #     {
-        #         "name": "Nama Anggota 1",
-        #         "nim"   : "210401227",
-        #         "image": "https://i.imgur.com/qZw1MOb.jpeg",  # Ganti dengan URL foto anggota
-        #         "linkedin": "https://linkedin.com/in/username1",
-        #         "github": "https://github.com/username1"
-        #     },
-        #     {
-        #         "name": "Nama Anggota 2",
-        #         "nim"   : "210401227",
-        #         "image": "/static/img/city.png",  # Ganti dengan URL foto anggota
-        #         "linkedin": "https://linkedin.com/in/username2",
-        #         "github": "https://github.com/username2"
-        #     },
-        #     {
-        #         "name": "Nama Anggota 3",
-        #         "nim"   : "210401227",
-        #         "image": "https://i.imgur.com/jbtARaK.jpeg",  # Ganti dengan URL foto anggota
-        #         "linkedin": "https://linkedin.com/in/username3",
-        #         "github": "https://github.com/username3"
-        #     }
-        # ]
         with open('dataset/team.json', 'r') as file:
             team_members = json.load(file)
         
@@ -680,9 +658,11 @@ def main():
                         </div>
                     </div>
                 """, unsafe_allow_html=True)
+##! Tab 4
     with tab4:
         create_data_visualization_tab(locations)   
-
+        
+##! Tab 5
     with tab5:
         st.header("Berikan Umpan Balik Anda")
         
@@ -740,7 +720,6 @@ def main():
             with col2:
                 st.metric("Rata-rata Rating", f"{avg_rating:.2f} / 5")
             
-            # Grafik distribusi rating
             rating_counts = {}
             for feedback in feedbacks:
                 rating_counts[feedback['rating']] = rating_counts.get(feedback['rating'], 0) + 1
@@ -758,23 +737,14 @@ def main():
             st.error(f"Gagal memuat statistik: {e}")
 
     st.markdown('</div>', unsafe_allow_html=True) 
-
+    with tab6:
+        display_feedback_tab()
 ##? ***********************************************************************************************************
 ##! ***********************************************************************************************************
 ##TODO ***********************************************************************************************************
     ##? DIBAWAH INI UNTUK SIDEBAR AJA YGY
     # Informasi lokasi di sidebar
-    st.sidebar.header("Informasi Lokasi")
-    for loc in filtered_locations:
-        if selected_categories[loc["Kategori"]]:
-            with st.sidebar.expander(loc["Nama"]):
-                st.write(f"**Kategori**: {loc['Kategori']}")
-                st.write(f"**Alamat**: {loc['Alamat']}")
-                st.write(loc["Deskripsi"])
-                try:
-                    st.image(loc["Gambar"], caption=loc["Nama"], use_container_width=True)
-                except Exception as e:
-                    st.error("Gambar tidak dapat dimuat")
+    display_sidebar(filtered_locations, selected_categories)
     
 if __name__ == "__main__":
     main()

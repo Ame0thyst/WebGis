@@ -1,6 +1,21 @@
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+import folium
+from folium.plugins import HeatMap
+from streamlit_folium import folium_static
+
+def create_folium_heatmap(df):
+    # Create a base map
+    m = folium.Map(location=[df['Latitude'].mean(), df['Longitude'].mean()], zoom_start=13, width='100%', height='600px')
+    
+    # Prepare data for HeatMap
+    heat_data = df[['Latitude', 'Longitude']].values.tolist()
+    
+    # Add heatmap layer
+    HeatMap(heat_data).add_to(m)
+    
+    return m
 
 def create_data_visualization_tab(locations):
     # Convert locations to DataFrame
@@ -35,20 +50,11 @@ def create_data_visualization_tab(locations):
         )
         st.plotly_chart(fig_bar)
     
-    # Scatter Plot for Geographical Distribution
-    st.subheader("Geographical Location Scatter")
-    fig_scatter = px.scatter_mapbox(
-        df, 
-        lat='Latitude', 
-        lon='Longitude', 
-        color='Kategori', 
-        hover_name='Nama',
-        hover_data=['Alamat', 'Kategori'],
-        zoom=13,
-        height=600
-    )
-    fig_scatter.update_layout(mapbox_style="open-street-map")
-    st.plotly_chart(fig_scatter, use_container_width=True)
+    # Heatmap for Geographical Distribution
+    st.subheader("Geographical Heatmap")
+    heatmap = create_folium_heatmap(df)
+    st.write("###")  # Adding some spacing
+    folium_static(heatmap, width=1200, height=600)
 
     # Additional Statistics
     st.subheader("Quick Statistics")

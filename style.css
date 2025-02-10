@@ -1,0 +1,45 @@
+/* styles.css */
+.feedback-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+}
+
+.feedback-card h4 {
+    margin: 0 0 15px 0;
+    color: #333;
+    font-size: 22px; /* Ukuran font lebih besar */
+}
+
+.feedback-card p {
+    margin: 8px 0;
+    color: #555;
+    font-size: 16px; /* Ukuran font lebih besar */
+}
+
+.feedback-card .rating {
+    font-weight: bold;
+    color: #ff9800;
+    font-size: 18px; /* Ukuran font lebih besar */
+}
+
+.feedback-card .category {
+    font-style: italic;
+    color: #777;
+    font-size: 16px; /* Ukuran font lebih besar */
+}
+
+.feedback-card .timestamp {
+    font-size: 14px; /* Ukuran font lebih besar */
+    color: #999;
+    margin-bottom: 15px;
+}
+
+.feedback-card strong {
+    font-weight: bold;
+    color: #333;
+}
