@@ -359,8 +359,8 @@ def main():
     # Input API key untuk routing
     # api_key = st.sidebar.text_input("OpenRouteService API Key", type="password") ##? yang ini diaktifkan kalau mau input api key nya manual, tapi dua baris dibawahnya harus di command 
     load_dotenv()
-    # api_key = os.getenv('OPENROUTESERVICE_API_KEY') ##! pakai ini kalau di local
-    api_key = st.secrets["OPENROUTESERVICE_API_KEY"] ##! ini kalau di deploy di streamlit share
+    api_key = os.getenv('OPENROUTESERVICE_API_KEY') ##! pakai ini kalau di local
+    # api_key = st.secrets["OPENROUTESERVICE_API_KEY"] ##! ini kalau di deploy di streamlit share
 
     
     # Buat dua tab

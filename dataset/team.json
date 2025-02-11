@@ -1,37 +1,37 @@
 [
-    {
-        "name": "Pak Rici",
-        "nim"   : "210401227",
-        "image": "https://i.imgur.com/sNYB8aO.jpeg",  
-        "linkedin": "https://linkedin.com/in/username1",
-        "github": "https://github.com/username1"
-    },
-    {
-        "name": " Gilang Wiko Wicaksono",
-        "nim"   : "210401227",
-        "image": "https://i.imgur.com/lpFrrOt_d.webp?maxwidth=760&fidelity=grand", 
-        "linkedin": "https://linkedin.com/in/username2",
-        "github": "https://github.com/username2"
-    },
-    {
-        "name": "M Syukri., S.Crud",
-        "nim"   : "210401227",
-        "image": "https://i.imgur.com/jbtARaK.jpeg",  
-        "linkedin": "https://linkedin.com/in/username3",
-        "github": "https://github.com/username3"
-    },
-    {
-        "name": "Rendi Putra",
-        "nim"   : "210401227",
-        "image": "https://i.imgur.com/TWKhkpF.jpeg",  
-        "linkedin": "https://linkedin.com/in/username3",
-        "github": "https://github.com/username3"
-    },
-    {
-        "name": "Dio Marselindi",
-        "nim"   : "210401227",
-        "image": "https://i.imgur.com/ETkOLRg.jpeg",  
-        "linkedin": "https://linkedin.com/in/username3",
-        "github": "https://github.com/username3"
-    }
+  {
+    "name": "Pak Ricioooo",
+    "nim": "210401267",
+    "image": "https://i.imgur.com/sNYB8aO.jpeg",
+    "linkedin": "https://linkedin.com/in/username1",
+    "github": "https://github.com/username1"
+  },
+  {
+    "name": " Gilang Wiko Wicaksono",
+    "nim": "210401227",
+    "image": "https://i.imgur.com/lpFrrOt_d.webp?maxwidth=760&fidelity=grand",
+    "linkedin": "https://linkedin.com/in/username2",
+    "github": "https://github.com/username2"
+  },
+  {
+    "name": "M Syukri., S.Crud",
+    "nim": "210401163",
+    "image": "https://i.imgur.com/jbtARaK.jpeg",
+    "linkedin": "https://linkedin.com/in/username3",
+    "github": "https://github.com/username3"
+  },
+  {
+    "name": "Rendi Putra",
+    "nim": "210401266",
+    "image": "https://i.imgur.com/TWKhkpF.jpeg",
+    "linkedin": "https://linkedin.com/in/username3",
+    "github": "https://github.com/username3"
+  },
+  {
+    "name": "Dio Marselindi",
+    "nim": "210401253",
+    "image": "https://i.imgur.com/ETkOLRg.jpeg",
+    "linkedin": "https://linkedin.com/in/username3",
+    "github": "https://github.com/username3"
+  }
 ]
